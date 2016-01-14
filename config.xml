@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.megazolidplus" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Megazolid Plus</name>
+<widget id="com.phonegap.darolacguthealthquiz" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Darolac - GUT Health Quiz</name>
     <description>
-        Megazolid Plus Game
+        Darolac GUT Health Quiz
     </description>
-    <author email="ajindam@kreaserv.com" href="http://kreaserv.com">
+    <author email="vishal@kreaserv.com" href="http://kreaserv.com">
         Kreaserv Media Pvt Ltd
     </author>
     <content src="index.html" />
