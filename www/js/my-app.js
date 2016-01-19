@@ -41,12 +41,15 @@ myApp.onPageInit('page3', function (page) {
 
 myApp.onPageInit('question_1', function (page) {
     a1 = 'null_value';
-    $('.anwsers').click(function(){
-      $('.anwsers').css('color', '#fff');
-      console.log(a1);
-      a1 = $(this).attr('id');
-      $(this).css('color', 'green');
-      console.log(a1);
+
+    $('.item-inner').click(function(){
+      a1 = $(this).find('.anwsers').attr('id');
+      $('.anwsers').css("color", "#fff");
+      $(this).find('.anwsers').css("color", "green");
+      $('.values').css("color", "#3E4290");
+      $('.values').css("border", "none");
+      $(this).find('.values').css("color", "#fff");
+      $(this).find('.values').css("border", "red solid 5px");
     })
 
     $('.q1_button').click(function(e){
@@ -60,14 +63,17 @@ myApp.onPageInit('question_1', function (page) {
 });
 
 myApp.onPageInit('question_3', function (page) {
-
     a3 = 'null_value';
-    $('.anwsers').click(function(){
-      $('.anwsers').css('color', '#fff');
-      a3 = $(this).attr('id');
-      $(this).css('color', 'green');
-      console.log(a3);
+    $('.item-inner').click(function(){
+      a3 = $(this).find('.anwsers').attr('id');
+      $('.anwsers').css("color", "#fff");
+      $(this).find('.anwsers').css("color", "green");
+      $('.values').css("color", "#3E4290");
+      $('.values').css("border", "none");
+      $(this).find('.values').css("color", "#fff");
+      $(this).find('.values').css("border", "red solid 5px");
     })
+
 
     $('.q3_button').click(function(e){
         if (a3 === 'null_value') {
@@ -82,12 +88,16 @@ myApp.onPageInit('question_3', function (page) {
 myApp.onPageInit('question_5', function (page) {
 
     a5 = 'null_value';
-    $('.anwsers').click(function(){
-      $('.anwsers').css('color', '#fff');
-      a5 = $(this).attr('id');
-      $(this).css('color', 'green');
-      console.log(a5);
+    $('.item-inner').click(function(){
+      a5 = $(this).find('.anwsers').attr('id');
+      $('.anwsers').css("color", "#fff");
+      $(this).find('.anwsers').css("color", "green");
+      $('.values').css("color", "#3E4290");
+      $('.values').css("border", "none");
+      $(this).find('.values').css("color", "#fff");
+      $(this).find('.values').css("border", "red solid 5px");
     })
+
 
     $('.q5_button').click(function(e){
         if (a5 === 'null_value') {
@@ -101,12 +111,16 @@ myApp.onPageInit('question_5', function (page) {
 
 myApp.onPageInit('question_8', function (page) {
     a8 = 'null_value';
-    $('.anwsers').click(function(){
-      $('.anwsers').css('color', '#fff');
-      a8 = $(this).attr('id');
-      $(this).css('color', 'green');
-      console.log(a8);
+    $('.item-inner').click(function(){
+      a8 = $(this).find('.anwsers').attr('id');
+      $('.anwsers').css("color", "#fff");
+      $(this).find('.anwsers').css("color", "green");
+      $('.values').css("color", "#3E4290");
+      $('.values').css("border", "none");
+      $(this).find('.values').css("color", "#fff");
+      $(this).find('.values').css("border", "red solid 5px");
     })
+
     $('.q8_button').click(function(e){
         if (a8 === 'null_value') {
         } else {
