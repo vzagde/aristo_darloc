@@ -42,7 +42,7 @@ myApp.onPageInit('page3', function (page) {
 myApp.onPageInit('question_1', function (page) {
     a1 = 'null_value';
     $('.anwsers').click(function(){
-      $('.anwsers').css('color', '#3E4290');
+      $('.anwsers').css('color', '#fff');
       console.log(a1);
       a1 = $(this).attr('id');
       $(this).css('color', 'green');
@@ -63,7 +63,7 @@ myApp.onPageInit('question_3', function (page) {
 
     a3 = 'null_value';
     $('.anwsers').click(function(){
-      $('.anwsers').css('color', '#3E4290');
+      $('.anwsers').css('color', '#fff');
       a3 = $(this).attr('id');
       $(this).css('color', 'green');
       console.log(a3);
@@ -83,7 +83,7 @@ myApp.onPageInit('question_5', function (page) {
 
     a5 = 'null_value';
     $('.anwsers').click(function(){
-      $('.anwsers').css('color', '#3E4290');
+      $('.anwsers').css('color', '#fff');
       a5 = $(this).attr('id');
       $(this).css('color', 'green');
       console.log(a5);
@@ -102,7 +102,7 @@ myApp.onPageInit('question_5', function (page) {
 myApp.onPageInit('question_8', function (page) {
     a8 = 'null_value';
     $('.anwsers').click(function(){
-      $('.anwsers').css('color', '#3E4290');
+      $('.anwsers').css('color', '#fff');
       a8 = $(this).attr('id');
       $(this).css('color', 'green');
       console.log(a8);
@@ -121,7 +121,7 @@ myApp.onPageInit('question_8', function (page) {
 myApp.onPageInit('question_9', function (page) {
     a9 = 'null_value';
     $('.anwsers').click(function(){
-      $('.anwsers').css('color', '#3E4290');
+      $('.anwsers').css('color', '#fff');
       a9 = $(this).attr('id');
       $(this).css('color', 'green');
       console.log(a9);
@@ -147,7 +147,7 @@ myApp.onPageInit('thankyou', function (page) {
       $('#total').empty();
       var tot=parseInt(a1)+parseInt(a3)+parseInt(a5)+parseInt(a8)+parseInt(a9);
       console.log(tot);
-      var msg = 'Score : '+tot;
+      var msg = tot;
       $('#total').text(msg);
       $('.thankyou_button').click(function(e){
           dummy_var = 1;
