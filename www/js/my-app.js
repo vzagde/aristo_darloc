@@ -134,12 +134,16 @@ myApp.onPageInit('question_8', function (page) {
 
 myApp.onPageInit('question_9', function (page) {
     a9 = 'null_value';
-    $('.anwsers').click(function(){
-      $('.anwsers').css('color', '#fff');
-      a9 = $(this).attr('id');
-      $(this).css('color', 'green');
-      console.log(a9);
+    $('.item-inner').click(function(){
+      a9 = $(this).find('.anwsers').attr('id');
+      $('.anwsers').css("color", "#fff");
+      $(this).find('.anwsers').css("color", "green");
+      $('.values').css("color", "#3E4290");
+      $('.values').css("border", "none");
+      $(this).find('.values').css("color", "#fff");
+      $(this).find('.values').css("border", "red solid 5px");
     })
+
     $('.q9_button').click(function(e){
         if (a9 === 'null_value') {
         } else {
